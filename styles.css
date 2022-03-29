@@ -1,0 +1,107 @@
+vv*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  margin-left: 5rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.piano {
+  display: flex;
+
+}
+
+
+
+.key {
+  height: calc(var(--width) * 4);
+  width: var(--width);
+  
+}
+
+.white {
+  --width: 100px;
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+}
+
+.white.active {
+  background-color: rgb(165, 161, 161);
+  border-color: blue;
+  border-width: 1px;
+  
+}
+
+.black {
+  --width: 60px;
+  background-color: black;
+  margin-left: calc(var(--width) / -2);
+  margin-right: calc(var(--width) / -2);
+  z-index: 2;
+  
+}
+
+.black.active {
+  background-color: rgb(65, 62, 62);
+  border-color: red;
+  border-width: 1px;
+}
+#foot{
+  color: blanchedalmond;
+  display: flex;
+  position: absolute;
+  margin-top: 35rem;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+#foot :hover{
+  color: deepskyblue;
+  height: 2rem;
+  zoom: 150%;
+  border: thick double #32a1ce;
+  border-radius: 1rem;
+  
+}
+.instructions{
+  color: bisque;
+  position: absolute;
+  display: flex;
+  
+  
+  
+  /* justify-content: space-between; */
+  
+}
+h4{
+  text-align: center;
+  margin-top: 23rem;
+  color: firebrick;
+  
+  
+}
+
+.piano >* h4:hover{
+  
+  color: indigo;
+  
+}
+h3{
+  text-align: center;
+  margin-top: 12rem;
+  color: antiquewhite;
+
+}
+h3:hover{
+  color: crimson;
+  
+}
+
+
