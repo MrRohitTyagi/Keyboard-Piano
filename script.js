@@ -32,10 +32,10 @@ document.addEventListener('keydown', e => {
   
 
   key.classList.add('active')
-  ArrowKeys.classList.add('active')
+  
   noteAudio.addEventListener('ended', () => {
     key.classList.remove('active')
-    ArrowKeys.classList.remove('active')
+    
   })
   
 }
