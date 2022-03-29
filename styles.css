@@ -104,4 +104,79 @@ h3:hover{
   
 }
 
+.checkbox{
+  color: bisque;
+  height: 2rem;
+  width: 15rem;
+  justify-content: space-between;
+  position: absolute;
+  display: flex;
+  top: 2rem;
+  transform: scale(2);
+}
+.checkbox  :hover{
+  color: cyan;
+}
+
+
+.guitar{
+  background-color: burlywood;
+  position: absolute;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  left: 2rem;
+  top: 15rem;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 50rem;
+  border-color: brown;
+  border-width: 10px;
+  border-style: outset;
+  
+}
+
+.g-cords{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  height: 50rem;
+  width: 20rem;
+  left: 7rem;
+  top: 4rem;
+  
+}
+
+.cord{
+  height: 30rem;
+  width: 1rem;
+  background-color: maroon;
+  border-radius: 120px;
+  border-style: solid;
+  border-width: 2px;
+}
+.full-guitar{
+  display: none;
+}
+
+.cord-circls{
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  height: 5rem;
+  width: 20rem;
+  left: 7rem;
+  top: 33rem;
+  
+}
+.circle{
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  background-color: purple;
+  border-style: dotted;
+  border-color: blue;
+  border-width: 2px;
+  
+}
+
 
